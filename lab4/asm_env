@@ -1,0 +1,13 @@
+ORACLE_SID=ASM.191941
+export ORACLE_SID
+
+ORACLE_HOME=/u01/app/11.2.0/grid
+export ORACLE_HOME
+
+PATH=$ORACLE_HOME/bin:$PATH
+
+NLS_LANG="AMERICAN_AMERICA.UTF8"
+export NLS_LANG
+
+MP="/u01/neb87/easymeat"
+export MP

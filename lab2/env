@@ -1,0 +1,16 @@
+surname=Gubarev
+name=Vladimir
+groupnumber=P3401
+ORACLE_SID=$surname$name$groupnumber
+export ORACLE_SID
+
+ORACLE_HOME=/u01/app/oracle/product/11.2.0/dbhome_1
+export ORACLE_HOME
+
+PATH=$PATH:$ORACLE_HOME/bin
+
+NLS_LANG="AMERICAN_AMERICA.UTF8"
+export NLS_LANG
+
+MP="/u01/neb87/easymeat"
+export MP

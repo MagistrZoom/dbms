@@ -1,0 +1,4 @@
+db_name="easymeat"
+sga_max_size=480M
+db_block_size=8192
+control_files = (/u01/neb87/easymeat/ora_control1.ctl, /u01/neb87/easymeat/ora_control2.ctl)
